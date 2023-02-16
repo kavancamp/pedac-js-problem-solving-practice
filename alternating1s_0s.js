@@ -9,5 +9,14 @@ RULES:
  - string starts with a '1'
  - length should match input amount
  - return empty string if unput is - or less than 0
- 
+DATA STRUCTURES:
+- string 1 & 0
+Algorithm:
+- If input is 0 or less than 0, return empty string
 */
+
+//Edge cases
+console.log(stringy(0));
+console.log(stringy(-4));
+//Valid
+console.log(stringy(6));
