@@ -12,8 +12,13 @@ RULES:
 DATA STRUCTURES:
 - string 1 & 0
 Algorithm:
+- create empty string 'result'
 - If input is 0 or less than 0, return empty string
 */
+
+function stringy(size) {
+  return "".padStart(size, "10");
+}
 
 //Edge cases
 console.log(stringy(0));
