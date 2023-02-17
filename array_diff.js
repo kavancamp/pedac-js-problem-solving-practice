@@ -41,3 +41,7 @@ function arrayDiff(array1, array2) {
   // Return “returnArray”
   return returnArray;
 }
+//OR
+function array_diff(a, b) {
+  return a.filter((e) => !b.includes(e));
+}
