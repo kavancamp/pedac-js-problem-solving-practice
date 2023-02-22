@@ -13,3 +13,13 @@ Input -
 positive integer 
 sort descending (highest num first)
 */
+
+function descendingOrder(n) {
+  return parseInt(
+    String(n)
+      .split("")
+      .sort((a, b) => a - b)
+      .reverse()
+      .join("")
+  );
+}
